@@ -4,7 +4,7 @@
 
 Example workflows are in **.eas/build**. They are associated with build profiles defined in **eas.json**.
 
-- Run `npm install`.
+- Run `bun install`.
 - If you don't have access to the **exponent** account:
   - Open **app.config.js**.
   - Remove the `extra` and `owner` fields.

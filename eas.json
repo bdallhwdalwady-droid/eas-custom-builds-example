@@ -40,11 +40,11 @@
       "channel": "production",
       "android": {
         "config": "android-build-with-credentials.yml",
-        "image": "default"
+        "image": "latest"
       },
       "ios": {
         "config": "ios-build-with-credentials.yml",
-        "image": "default"
+        "image": "latest"
       }
     },
     "production-and-development-builds-together": {
@@ -60,12 +60,12 @@
       "distribution": "internal",
       "android": {
         "config": "android-build-without-credentials.yml",
-        "image": "default"
+        "image": "latest"
       },
       "ios": {
         "simulator": true,
         "config": "ios-simulator-build.yml",
-        "image": "default"
+        "image": "latest"
       }
     },
     "send-slack-message": {
